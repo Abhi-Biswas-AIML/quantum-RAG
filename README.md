@@ -17,7 +17,7 @@ A hybrid Retrieval-Augmented Generation system using quantum circuits for docume
 
 2.  **Run the System**
     ```bash
-    python cli.py
+    streamlit run app.py
     ```
 
 ## Usage
