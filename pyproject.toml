@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantum-rag"
+version = "0.1.0"
+description = "Hybrid Quantum-Classical Retrieval Augmented Generation"
+dependencies = [
+    "numpy",
+    "sentence-transformers",
+    "qiskit",
+    "typer",
+    "rich",
+    "scikit-learn",
+    "faiss-cpu",
+    "pypdf",
+    "python-docx"
+]
+
+[project.scripts]
+quantum-rag = "cli:main"

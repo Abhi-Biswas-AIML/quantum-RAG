@@ -1,0 +1,13 @@
+numpy
+sentence-transformers
+qiskit
+qiskit-aer
+typer
+rich
+scikit-learn
+faiss-cpu
+pypdf
+python-docx
+streamlit
+google-generativeai
+python-dotenv
